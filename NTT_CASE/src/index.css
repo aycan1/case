@@ -1,0 +1,75 @@
+@media (min-width: 768px) {
+  div.carousel.carousel-slider > ul.control-dots > .dot.selected {
+    border: 1px solid #ffffff;
+  }
+  div.carousel.carousel-slider > ul.control-dots > .dot {
+    border: 1px solid white;
+    background-color: #ffffff;
+  }
+  div.carousel.carousel-slider > ul.control-dots {
+    top: 92%;
+    left: 45%;
+  }
+
+  .MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list {
+    background-color: #00254f;
+    color: white;
+  }
+  .MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list
+    > li:hover {
+    background-color: #0059bc;
+    margin: 0 8px;
+    border-radius: 3px;
+  }
+}
+
+/* Tablet için stil kuralları */
+@media (min-width: 480px) and (max-width: 768px) {
+  div.carousel.carousel-slider > ul.control-dots > .dot.selected {
+    /* background-color: blue; */
+    border: 1px solid white;
+    color: red;
+  }
+  div.carousel.carousel-slider > ul.control-dots > .dot {
+    background-color: #ffffff;
+  }
+  div.carousel.carousel-slider > ul.control-dots {
+    top: 94%;
+  }
+
+  .MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list {
+    background-color: #00254f;
+    color: white;
+  }
+  .MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list
+    > li:hover {
+    background-color: #0059bc;
+    margin: 0 8px;
+    border-radius: 3px;
+  }
+}
+
+/* Mobil için stil kuralları */
+@media (max-width: 480px) {
+  div.carousel.carousel-slider > ul.control-dots > .dot.selected {
+    background-color: #0059bc;
+    color: red;
+  }
+  div.carousel.carousel-slider > ul.control-dots > .dot {
+    background-color: black;
+  }
+  div.carousel.carousel-slider > ul.control-dots {
+    top: 94%;
+  }
+
+  .MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list {
+    background-color: #00254f;
+    color: white;
+  }
+  .MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list
+    > li:hover {
+    background-color: #0059bc;
+    margin: 0 8px;
+    border-radius: 3px;
+  }
+}
